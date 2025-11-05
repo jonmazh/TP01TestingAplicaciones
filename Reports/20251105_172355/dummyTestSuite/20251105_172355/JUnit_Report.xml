@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dummyTestSuite" time="4.061" tests="2" failures="1" errors="0">
+   <testsuite name="dummyTestSuite" tests="2" failures="1" errors="0" time="4.061" skipped="0" timestamp="2025-11-05T20:24:20.210Z" hostname="jonmh - mmalone" id="Test Suites/dummyTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\jonmh\\Documents\\GII + GIS\\4o CARRERA\\Testing\\TP01TestingAplicaciones\\Reports\\20251105_172355\\dummyTestSuite\\20251105_172355"/>
+         <property name="logFiles" value="C:\\Users\\jonmh\\Documents\\GII + GIS\\4o CARRERA\\Testing\\TP01TestingAplicaciones\\Reports\\20251105_172355\\dummyTestSuite\\20251105_172355\\console0.log, C:\\Users\\jonmh\\Documents\\GII + GIS\\4o CARRERA\\Testing\\TP01TestingAplicaciones\\Reports\\20251105_172355\\dummyTestSuite\\20251105_172355\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Jon Mazcuñan Hernandez"/>
+         <property name="hostName" value="jonmh - mmalone"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="projectName" value="TP Testing"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.2.0"/>
+      </properties>
+      <testcase name="Test Cases/TC-001" time="0.495" classname="Test Cases/TC-001" status="PASSED">
+         <system-out><![CDATA[05-11-2025T17:24:22 - [TEST_CASE][PASSED] - Test Cases/TC-001: Test Cases/TC-001
+
+05-11-2025T17:24:23 - [TEST_STEP][PASSED] - logInfo("Ejecutando TC-001 de prueba"): Ejecutando TC-001 de prueba
+
+05-11-2025T17:24:23 - [MESSAGE][INFO] - Ejecutando TC-001 de prueba
+
+05-11-2025T17:24:23 - [TEST_STEP][PASSED] - assert true: null
+
+05-11-2025T17:24:23 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: No se pudo enviar el resultado al sheet: No such property: ctx for class: SendResultToSheets
+
+05-11-2025T17:24:23 - [TEST_STEP][PASSED] - try: null
+
+05-11-2025T17:24:23 - [TEST_STEP][PASSED] - logInfo("[Listener] Se terminó un test case: " + ctx.getTestCaseId()): null
+
+05-11-2025T17:24:23 - [TEST_STEP][PASSED] - catch (Exception e): No se pudo enviar el resultado al sheet: No such property: ctx for class: SendResultToSheets
+
+05-11-2025T17:24:23 - [TEST_STEP][PASSED] - logInfo("No se pudo enviar el resultado al sheet: " + message): No se pudo enviar el resultado al sheet: No such property: ctx for class: SendResultToSheets
+
+05-11-2025T17:24:23 - [MESSAGE][INFO] - No se pudo enviar el resultado al sheet: No such property: ctx for class: SendResultToSheets]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-002" time="0.131" classname="Test Cases/TC-002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC-002 FAILED.&#xa;Reason:&#xa;java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false&#xa;	at TC-002.run(TC-002:5)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1762374235672.run(TempTestSuite1762374235672.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[05-11-2025T17:24:24 - [TEST_CASE][FAILED] - Test Cases/TC-002: Test Cases/TC-002 FAILED.
+Reason:
+java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false
+	at TC-002.run(TC-002:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1762374235672.run(TempTestSuite1762374235672.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+05-11-2025T17:24:24 - [TEST_STEP][PASSED] - logInfo("Ejecutando TC-002 de prueba"): Ejecutando TC-002 de prueba
+
+05-11-2025T17:24:24 - [MESSAGE][INFO] - Ejecutando TC-002 de prueba
+
+05-11-2025T17:24:24 - [TEST_STEP][FAILED] - assert false : "Fallo forzado para probar el webhook": Test Cases/TC-002 FAILED.
+Reason:
+java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false
+	at TC-002.run(TC-002:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1762374235672.run(TempTestSuite1762374235672.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+05-11-2025T17:24:24 - [MESSAGE][FAILED] - Test Cases/TC-002 FAILED.
+Reason:
+java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false
+	at TC-002.run(TC-002:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1762374235672.run(TempTestSuite1762374235672.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+05-11-2025T17:24:24 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: No se pudo enviar el resultado al sheet: No such property: ctx for class: SendResultToSheets
+
+05-11-2025T17:24:24 - [TEST_STEP][PASSED] - try: null
+
+05-11-2025T17:24:24 - [TEST_STEP][PASSED] - logInfo("[Listener] Se terminó un test case: " + ctx.getTestCaseId()): null
+
+05-11-2025T17:24:24 - [TEST_STEP][PASSED] - catch (Exception e): No se pudo enviar el resultado al sheet: No such property: ctx for class: SendResultToSheets
+
+05-11-2025T17:24:24 - [TEST_STEP][PASSED] - logInfo("No se pudo enviar el resultado al sheet: " + message): No se pudo enviar el resultado al sheet: No such property: ctx for class: SendResultToSheets
+
+05-11-2025T17:24:24 - [MESSAGE][INFO] - No se pudo enviar el resultado al sheet: No such property: ctx for class: SendResultToSheets]]></system-out>
+         <system-err><![CDATA[05-11-2025T17:24:24 - [TEST_CASE][FAILED] - Test Cases/TC-002: Test Cases/TC-002 FAILED.
+Reason:
+java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false
+	at TC-002.run(TC-002:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1762374235672.run(TempTestSuite1762374235672.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-11-2025T17:24:20 - [TEST_STEP][PASSED] - Start listener action : beforeSuite: null
+
+05-11-2025T17:24:20 - [TEST_STEP][PASSED] - currentSuiteId = testSuiteContext.getTestSuiteId(): null
+
+05-11-2025T17:24:20 - [TEST_SUITE][FAILED] - dummyTestSuite: null]]></system-out>
+      <system-err><![CDATA[05-11-2025T17:24:20 - [TEST_SUITE][FAILED] - dummyTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

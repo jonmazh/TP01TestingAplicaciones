@@ -4,4 +4,32 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://script.google.com/macros/s/AKfycbx4-szngREUk_c6_mcG9XJiPUlQoKQCRJqxq13FW0B9RsGCZz1jrD7AlD4dlHDOvCmp/exec'</initValue>
+      <name>WebhookUrl</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'hX67TGd9vHLfrmUmx7fhpuw4Hat5TczDPcbdDjEO1AgjpElhhqqExprXwS7lwHOP'</initValue>
+      <name>WebhookSecret</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1.0.0'</initValue>
+      <name>Build</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Tester</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
