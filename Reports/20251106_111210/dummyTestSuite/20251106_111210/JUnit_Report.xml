@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dummyTestSuite" time="19.882" tests="2" failures="1" errors="0">
+   <testsuite name="dummyTestSuite" tests="2" failures="1" errors="0" time="19.882" skipped="0" timestamp="2025-11-06T14:12:36.661Z" hostname="jonmh - mmalone" id="Test Suites/dummyTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\jonmh\\Documents\\GII + GIS\\4o CARRERA\\Testing\\TP01TestingAplicaciones\\Reports\\20251106_111210\\dummyTestSuite\\20251106_111210"/>
+         <property name="logFiles" value="C:\\Users\\jonmh\\Documents\\GII + GIS\\4o CARRERA\\Testing\\TP01TestingAplicaciones\\Reports\\20251106_111210\\dummyTestSuite\\20251106_111210\\console0.log, C:\\Users\\jonmh\\Documents\\GII + GIS\\4o CARRERA\\Testing\\TP01TestingAplicaciones\\Reports\\20251106_111210\\dummyTestSuite\\20251106_111210\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Jon Mazcuñan Hernandez"/>
+         <property name="hostName" value="jonmh - mmalone"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="projectName" value="TP Testing"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.2.0"/>
+      </properties>
+      <testcase name="Test Cases/TC-001" time="8.481" classname="Test Cases/TC-001" status="PASSED">
+         <system-out><![CDATA[06-11-2025T11:12:39 - [TEST_CASE][PASSED] - Test Cases/TC-001: Test Cases/TC-001
+
+06-11-2025T11:12:39 - [TEST_STEP][PASSED] - logInfo("Ejecutando TC-001 de prueba"): Ejecutando TC-001 de prueba
+
+06-11-2025T11:12:39 - [MESSAGE][INFO] - Ejecutando TC-001 de prueba
+
+06-11-2025T11:12:39 - [TEST_STEP][PASSED] - assert true: null
+
+06-11-2025T11:12:39 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: [Listener] Google respondió: 200 - ok: run=RUN-055, no bug
+
+06-11-2025T11:12:39 - [TEST_STEP][PASSED] - try: null
+
+06-11-2025T11:12:39 - [TEST_STEP][PASSED] - webhookUrl = WebhookUrl: null
+
+06-11-2025T11:12:40 - [TEST_STEP][PASSED] - secret = WebhookSecret: null
+
+06-11-2025T11:12:40 - [TEST_STEP][PASSED] - fullId = testCaseContext.getTestCaseId(): null
+
+06-11-2025T11:12:40 - [TEST_STEP][PASSED] - tcId = tokenize("/").last(): null
+
+06-11-2025T11:12:40 - [TEST_STEP][PASSED] - kStatus = testCaseContext.getTestCaseStatus(): null
+
+06-11-2025T11:12:40 - [TEST_STEP][PASSED] - status = ((kStatus == PASSED)) ? PASS : FAIL: null
+
+06-11-2025T11:12:40 - [TEST_STEP][PASSED] - payload = ["token":secret, "suite":currentSuiteId, "runId":"", "testCaseID":tcId, "timeStamp":Date().format("yyyy-MM-dd'T'HH:mm:ss'Z'"), ... ]: null
+
+06-11-2025T11:12:40 - [TEST_STEP][PASSED] - if (status == "FAIL"): null
+
+06-11-2025T11:12:40 - [TEST_STEP][PASSED] - sendPost(webhookUrl, payload): null
+
+06-11-2025T11:12:40 - [TEST_STEP][PASSED] - endpoint = new java.net.URL(url): null
+
+06-11-2025T11:12:40 - [TEST_STEP][PASSED] - conn = endpoint.openConnection(): null
+
+06-11-2025T11:12:41 - [TEST_STEP][PASSED] - conn.setRequestMethod("POST"): null
+
+06-11-2025T11:12:41 - [TEST_STEP][PASSED] - conn.setRequestProperty("Content-Type", "application/json"): null
+
+06-11-2025T11:12:41 - [TEST_STEP][PASSED] - conn.setDoOutput(true): null
+
+06-11-2025T11:12:41 - [TEST_STEP][PASSED] - json = JsonOutput.toJson(payload): null
+
+06-11-2025T11:12:41 - [TEST_STEP][PASSED] - getOutputStream().write(json.getBytes("UTF-8")): null
+
+06-11-2025T11:12:43 - [TEST_STEP][PASSED] - getOutputStream().flush(): null
+
+06-11-2025T11:12:43 - [TEST_STEP][PASSED] - getOutputStream().close(): null
+
+06-11-2025T11:12:43 - [TEST_STEP][PASSED] - code = conn.getResponseCode(): null
+
+06-11-2025T11:12:47 - [TEST_STEP][PASSED] - is = : null
+
+06-11-2025T11:12:47 - [TEST_STEP][PASSED] - if (code >= 200 && code < 400): null
+
+06-11-2025T11:12:47 - [TEST_STEP][PASSED] - is = conn.getInputStream(): null
+
+06-11-2025T11:12:47 - [TEST_STEP][PASSED] - resp = ((is != null)) ? is.getText(UTF-8) : : null
+
+06-11-2025T11:12:47 - [TEST_STEP][PASSED] - logInfo("[Listener] Google respondió: " + code + " - " + resp): [Listener] Google respondió: 200 - ok: run=RUN-055, no bug
+
+06-11-2025T11:12:47 - [MESSAGE][INFO] - [Listener] Google respondió: 200 - ok: run=RUN-055, no bug]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-002" time="3.541" classname="Test Cases/TC-002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC-002 FAILED.&#xa;Reason:&#xa;java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false&#xa;	at TC-002.run(TC-002:5)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1762438330092.run(TempTestSuite1762438330092.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[06-11-2025T11:12:53 - [TEST_CASE][FAILED] - Test Cases/TC-002: Test Cases/TC-002 FAILED.
+Reason:
+java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false
+	at TC-002.run(TC-002:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1762438330092.run(TempTestSuite1762438330092.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - logInfo("Ejecutando TC-002 de prueba"): Ejecutando TC-002 de prueba
+
+06-11-2025T11:12:53 - [MESSAGE][INFO] - Ejecutando TC-002 de prueba
+
+06-11-2025T11:12:53 - [TEST_STEP][FAILED] - assert false : "Fallo forzado para probar el webhook": Test Cases/TC-002 FAILED.
+Reason:
+java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false
+	at TC-002.run(TC-002:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1762438330092.run(TempTestSuite1762438330092.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+06-11-2025T11:12:53 - [MESSAGE][FAILED] - Test Cases/TC-002 FAILED.
+Reason:
+java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false
+	at TC-002.run(TC-002:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1762438330092.run(TempTestSuite1762438330092.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: [Listener] Google respondió: 200 - ok: run=RUN-057, bug row appended as B-009
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - try: null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - webhookUrl = WebhookUrl: null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - secret = WebhookSecret: null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - fullId = testCaseContext.getTestCaseId(): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - tcId = tokenize("/").last(): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - kStatus = testCaseContext.getTestCaseStatus(): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - status = ((kStatus == PASSED)) ? PASS : FAIL: null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - payload = ["token":secret, "suite":currentSuiteId, "runId":"", "testCaseID":tcId, "timeStamp":Date().format("yyyy-MM-dd'T'HH:mm:ss'Z'"), ... ]: null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - if (status == "FAIL"): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - payload["bug"] = ["id":"", "title":"Fallo en " + tcId, "severity":"Media", "srt":"", "evidenceUrl":"", "notes":testCaseContext.getMessage()]: null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - sendPost(webhookUrl, payload): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - endpoint = new java.net.URL(url): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - conn = endpoint.openConnection(): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - conn.setRequestMethod("POST"): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - conn.setRequestProperty("Content-Type", "application/json"): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - conn.setDoOutput(true): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - json = JsonOutput.toJson(payload): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - getOutputStream().write(json.getBytes("UTF-8")): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - getOutputStream().flush(): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - getOutputStream().close(): null
+
+06-11-2025T11:12:53 - [TEST_STEP][PASSED] - code = conn.getResponseCode(): null
+
+06-11-2025T11:12:56 - [TEST_STEP][PASSED] - is = : null
+
+06-11-2025T11:12:56 - [TEST_STEP][PASSED] - if (code >= 200 && code < 400): null
+
+06-11-2025T11:12:56 - [TEST_STEP][PASSED] - is = conn.getInputStream(): null
+
+06-11-2025T11:12:56 - [TEST_STEP][PASSED] - resp = ((is != null)) ? is.getText(UTF-8) : : null
+
+06-11-2025T11:12:56 - [TEST_STEP][PASSED] - logInfo("[Listener] Google respondió: " + code + " - " + resp): [Listener] Google respondió: 200 - ok: run=RUN-057, bug row appended as B-009
+
+06-11-2025T11:12:56 - [MESSAGE][INFO] - [Listener] Google respondió: 200 - ok: run=RUN-057, bug row appended as B-009]]></system-out>
+         <system-err><![CDATA[06-11-2025T11:12:53 - [TEST_CASE][FAILED] - Test Cases/TC-002: Test Cases/TC-002 FAILED.
+Reason:
+java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false
+	at TC-002.run(TC-002:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1762438330092.run(TempTestSuite1762438330092.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-11-2025T11:12:36 - [TEST_STEP][PASSED] - Start listener action : beforeSuite: null
+
+06-11-2025T11:12:36 - [TEST_STEP][PASSED] - currentSuiteId = testSuiteContext.getTestSuiteId(): null
+
+06-11-2025T11:12:36 - [TEST_SUITE][FAILED] - dummyTestSuite: null]]></system-out>
+      <system-err><![CDATA[06-11-2025T11:12:36 - [TEST_SUITE][FAILED] - dummyTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

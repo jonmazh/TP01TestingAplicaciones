@@ -1,0 +1,113 @@
+2025-11-06 11:31:41.305 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/dummyTestSuite
+2025-11-06 11:31:41.889 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Jon Mazcuñan Hernandez
+2025-11-06 11:31:41.893 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TP Testing
+2025-11-06 11:31:41.897 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = jonmh - mmalone
+2025-11-06 11:31:41.900 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-06 11:31:41.902 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.56.1
+2025-11-06 11:31:41.905 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.2.0
+2025-11-06 11:31:44.686 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-06 11:31:44.686 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-001
+2025-11-06 11:31:44.945 DEBUG testcase.TC-001                          - 1: logInfo("Ejecutando TC-001 de prueba")
+2025-11-06 11:31:44.981 INFO  com.kms.katalon.core.util.KeywordUtil    - Ejecutando TC-001 de prueba
+2025-11-06 11:31:44.987 DEBUG testcase.TC-001                          - 2: assert true
+2025-11-06 11:31:51.114 INFO  com.kms.katalon.core.util.KeywordUtil    - [Listener] Google respondió: 200 - ok: run=RUN-061 | no bug | file=https://docs.google.com/spreadsheets/d/1Ub7Soi1NHQSWsRjiNPg3m9n0e9KTCTk93r-hxleWR2A/edit
+2025-11-06 11:31:51.121 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-001
+2025-11-06 11:31:51.144 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-06 11:31:51.144 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-002
+2025-11-06 11:31:51.315 DEBUG testcase.TC-002                          - 1: logInfo("Ejecutando TC-002 de prueba")
+2025-11-06 11:31:51.319 INFO  com.kms.katalon.core.util.KeywordUtil    - Ejecutando TC-002 de prueba
+2025-11-06 11:31:51.324 DEBUG testcase.TC-002                          - 2: assert false : "Fallo forzado para probar el webhook"
+2025-11-06 11:31:51.362 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC-002 FAILED.
+Reason:
+java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false
+	at TC-002.run(TC-002:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1762439476822.run(TempTestSuite1762439476822.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-11-06 11:31:51.421 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC-002 FAILED.
+Reason:
+java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false
+	at TC-002.run(TC-002:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1762439476822.run(TempTestSuite1762439476822.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-11-06 11:31:55.061 INFO  com.kms.katalon.core.util.KeywordUtil    - [Listener] Google respondió: 200 - ok: run=RUN-062 | bug "B-009" en sheet "BUGS" fila 10 | file=https://docs.google.com/spreadsheets/d/1Ub7Soi1NHQSWsRjiNPg3m9n0e9KTCTk93r-hxleWR2A/edit
+2025-11-06 11:31:55.069 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-002
+2025-11-06 11:31:55.083 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-06 11:31:55.083 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-002
+2025-11-06 11:31:55.123 DEBUG testcase.TC-002                          - 1: logInfo("Ejecutando TC-002 de prueba")
+2025-11-06 11:31:55.126 INFO  com.kms.katalon.core.util.KeywordUtil    - Ejecutando TC-002 de prueba
+2025-11-06 11:31:55.128 DEBUG testcase.TC-002                          - 2: assert false : "Fallo forzado para probar el webhook"
+2025-11-06 11:31:55.133 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC-002 FAILED.
+Reason:
+java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false
+	at TC-002.run(TC-002:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1762439476822.run(TempTestSuite1762439476822.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-11-06 11:31:55.141 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC-002 FAILED.
+Reason:
+java.lang.AssertionError: Fallo forzado para probar el webhook. Expression: false
+	at TC-002.run(TC-002:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1762439476822.run(TempTestSuite1762439476822.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-11-06 11:31:58.844 INFO  com.kms.katalon.core.util.KeywordUtil    - [Listener] Google respondió: 200 - ok: run=RUN-063 | bug "B-010" en sheet "BUGS" fila 11 | file=https://docs.google.com/spreadsheets/d/1Ub7Soi1NHQSWsRjiNPg3m9n0e9KTCTk93r-hxleWR2A/edit
+2025-11-06 11:31:58.848 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-002
+2025-11-06 11:31:59.061 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-06 11:31:59.062 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/dummyTestSuite
+2025-11-06 11:31:59.062 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -17,7 +17,7 @@ suiteProperties.put('id', 'Test Suites/dummyTestSuite')
 suiteProperties.put('name', 'dummyTestSuite')
 suiteProperties.put('description', '')
 suiteProperties.put('rerunTestFailImmediately', 'true')
-suiteProperties.put('retryCount', '3')
+suiteProperties.put('retryCount', '1')
  
 
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\jonmh\\Documents\\GII + GIS\\4o CARRERA\\Testing\\TP01TestingAplicaciones\\Reports\\20251105_172751\\dummyTestSuite\\20251105_172751\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\jonmh\\Documents\\GII + GIS\\4o CARRERA\\Testing\\TP01TestingAplicaciones\\Reports\\20251106_113116\\dummyTestSuite\\20251106_113116\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/dummyTestSuite', suiteProperties, new File("C:\\Users\\jonmh\\Documents\\GII + GIS\\4o CARRERA\\Testing\\TP01TestingAplicaciones\\Reports\\20251105_172751\\dummyTestSuite\\20251105_172751\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/dummyTestSuite', suiteProperties, new File("C:\\Users\\jonmh\\Documents\\GII + GIS\\4o CARRERA\\Testing\\TP01TestingAplicaciones\\Reports\\20251106_113116\\dummyTestSuite\\20251106_113116\\testCaseBinding"))

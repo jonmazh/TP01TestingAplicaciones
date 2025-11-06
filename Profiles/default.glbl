@@ -27,7 +27,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'JON MAZCUÑAN'</initValue>
       <name>Tester</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

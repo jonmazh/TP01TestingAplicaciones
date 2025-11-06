@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+dummyTestSuite,,,,06-11-2025 11:34:59,06-11-2025 11:35:16,"17,700s",FAILED
+,,,,,,,
+Start listener action : beforeSuite,,,,06-11-2025 11:34:59,06-11-2025 11:34:59,"0,126s",PASSED
+,,,,,,,
+Test Cases/TC-001,,,,06-11-2025 11:35:02,06-11-2025 11:35:07,"5,851s",PASSED
+"logInfo(""Ejecutando TC-001 de prueba"")",,,,06-11-2025 11:35:02,06-11-2025 11:35:02,"0,038s",PASSED
+assert true,,,,06-11-2025 11:35:02,06-11-2025 11:35:02,"0,006s",PASSED
+Start listener action : afterTestCase,,,,06-11-2025 11:35:02,06-11-2025 11:35:07,"5,580s",PASSED
+,,,,,,,
+Test Cases/TC-002,,,,06-11-2025 11:35:11,06-11-2025 11:35:16,"5,006s",FAILED
+"logInfo(""Ejecutando TC-002 de prueba"")",,,,06-11-2025 11:35:11,06-11-2025 11:35:11,"0,003s",PASSED
+"assert false : ""Fallo forzado para probar el webhook""",,,,06-11-2025 11:35:11,06-11-2025 11:35:11,"0,007s",FAILED
+Start listener action : afterTestCase,,,,06-11-2025 11:35:11,06-11-2025 11:35:16,"4,948s",PASSED
